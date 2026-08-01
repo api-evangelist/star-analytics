@@ -1,8 +1,24 @@
 aid: star-analytics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/star-analytics.png
 name: Star Analytics
-description: Star Analytics is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Star Analytics is a business-intelligence software company described as a market leader
+  in process automation and application integration across hybrid computing environments, with products
+  built to address the automation and integration requirements of business intelligence software. It
+  was surfaced as a portfolio company of Lightspeed Venture Partners and added to the API Evangelist
+  network. Enrichment found no public developer platform, API documentation, or machine-readable API
+  surface; the primary domain (staranalytics.com) resolves to a parking IP and does not serve HTTPS,
+  consistent with a legacy company that is no longer independently operating.
 url: https://raw.githubusercontent.com/api-evangelist/star-analytics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,32 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-provider: false
+x-founder: Quinlan Eddy
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Business Intelligence
+- Data Integration
+- Process Automation
+- Application Integration
+- Analytics
+common:
+- type: Website
+  url: https://staranalytics.com
+- type: VC
+  name: Lightspeed Venture Partners
+  url: https://lsvp.com/company/star-analytics/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
